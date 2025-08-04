@@ -55,16 +55,25 @@ a {
     padding: 20px;
 }
 
-.search__bar--container {
+.search__bar--wrapper {
     display: flex;
     justify-content: center;
     padding: 24px;
+    width: 100%;
+    position: relative;
 }
 
 .movie__search-bar {
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     height: 24px;
    border-radius: 15px;
    border: 1px #000 solid;
    padding: 12px;
+}
+
+.search__button {
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
 }
