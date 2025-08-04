@@ -7,6 +7,9 @@
     box-sizing: border-box;
 }
 
+
+/*LANDING and NAVIGATION*/
+
 .title {
     display: flex;
     justify-content: center;
@@ -23,8 +26,6 @@
     background-size: cover;
 }
 
-/*NAVIGATION*/
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -40,10 +41,30 @@ nav {
 
 .nav__link {
     padding: 0 12px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 .title__container {
     width: 100%;
     margin: 20px;
     padding: 20px;
+}
+
+.search__bar--container {
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+}
+
+.movie__search-bar {
+    width: 300px;
+    height: 24px;
+   border-radius: 15px;
+   border: 1px #000 solid;
+   padding: 12px;
 }
