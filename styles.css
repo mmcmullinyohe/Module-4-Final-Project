@@ -1,27 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 * {
-    margin: 0 auto;
+    font-family:"Lato", sans-serif;
+    margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-.li {
-    list-style-type: none;
-    text-decoration: none;
+.title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: white;
 }
 
+#landing {
+    padding: 24px, 12px, 12px, 24px;
+    width: 100%;
+    background-image: url(./assets/Movie\ Posters\ blue.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
 /*NAVIGATION*/
 
 nav {
     display: flex;
     justify-content: space-between;
-    background-image: url("./assets/Movie\ img.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    margin: 20px 12px;
+    padding: 12px;
+    color: white;
 }
 
 .nav__list {
     display: flex;
-    
+    list-style-type: none;
 }
 
+.nav__link {
+    padding: 0 12px;
+}
+
+.title__container {
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+}
