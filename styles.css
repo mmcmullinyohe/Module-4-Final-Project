@@ -5,6 +5,7 @@
 
 .li {
     list-style-type: none;
+    text-decoration: none;
 }
 
 
@@ -13,9 +14,14 @@
 nav {
     display: flex;
     justify-content: space-between;
+    background-image: url("./assets/Movie\ img.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .nav__list {
     display: flex;
+    
 }
 
