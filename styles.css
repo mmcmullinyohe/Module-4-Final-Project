@@ -7,7 +7,6 @@
     box-sizing: border-box;
 }
 
-
 /*LANDING and NAVIGATION*/
 
 .title {
@@ -76,4 +75,17 @@ a {
     background-color: transparent;
     border: transparent;
     cursor: pointer;
+}
+
+/* SEARCH */
+#search__results {
+    background-color: rgb(55, 32, 85);
+    width: 100%;
+}
+
+.results__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 32px;
+    color: white;
 }
