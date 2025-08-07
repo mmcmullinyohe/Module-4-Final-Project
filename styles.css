@@ -94,3 +94,9 @@ a {
 .search {
     color: white;
 }
+
+.movies {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
