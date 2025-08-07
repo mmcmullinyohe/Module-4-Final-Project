@@ -99,4 +99,12 @@ a {
     display: flex;
     justify-content: space-between;
     color: white;
+    margin: 12px;
+    padding: 24px;
+    
+}
+
+.movie {
+    padding: 12px;
+    width: 100%;
 }
