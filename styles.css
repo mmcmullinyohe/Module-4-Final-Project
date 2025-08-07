@@ -107,4 +107,5 @@ a {
 .movie {
     padding: 12px;
     width: 100%;
+    max-width: 1200px;
 }
