@@ -117,9 +117,14 @@ a {
     color: white;
 }
 
+.poster {
+    width: 100%;
+}
+
 .movies {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     color: white;
     margin: 12px;
     padding: 24px;
@@ -128,7 +133,7 @@ a {
 
 .movie {
     padding: 12px;
-    width: 100%;
+    width: calc(100%/3);
 }
 
 #movieSort {
@@ -138,4 +143,45 @@ a {
     font-weight: bold;
     width: 130px;
     height: 24px;
+}
+
+/*TABLETS AND LARGE PHONES*/
+@media (max-width: 768px) {
+nav {
+    height: 68px;
+}
+.title {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+.movie__logo {
+    width: 40px;
+}
+}
+
+/*SMALL PHONES*/
+@media (max-width: 480px) {
+    .title {
+        font-size: 28px;
+    }
+
+    nav {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    h4 {
+        font-size: 12px;
+    }
 }

@@ -28,7 +28,7 @@ function displayMovies(movieList) {
     .map((movie) => {
       return ` 
         <div class="movie">
-        <img src=${movie.Poster} alt="" />
+        <img src=${movie.Poster} class="poster" alt="" />
         <h2>${movie.Title}</h2>
         <h4>${movie.Year}<h4>
         </div>
