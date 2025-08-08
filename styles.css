@@ -50,7 +50,7 @@ a {
 
 .title__container {
     width: 100%;
-    margin: 20px;
+    margin: 20px 0;
     padding: 20px;
 }
 
@@ -108,4 +108,13 @@ a {
     padding: 12px;
     width: 100%;
     max-width: 1200px;
+}
+
+#movieSort {
+    border-radius: 24px;
+    color: white;
+    background-color: rgb(97, 9, 240);
+    font-weight: bold;
+    width: 130px;
+    height: 24px;
 }
