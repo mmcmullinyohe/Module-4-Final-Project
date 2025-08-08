@@ -123,13 +123,11 @@ a {
     color: white;
     margin: 12px;
     padding: 24px;
-
 }
 
 .movie {
     padding: 12px;
     width: 100%;
-    max-width: 1200px;
 }
 
 #movieSort {

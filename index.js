@@ -31,7 +31,6 @@ function displayMovies(movieList) {
         <img src=${movie.Poster} alt="" />
         <h2>${movie.Title}</h2>
         <h4>${movie.Year}<h4>
-        <button>Learn More</button>
         </div>
         `;
     })
